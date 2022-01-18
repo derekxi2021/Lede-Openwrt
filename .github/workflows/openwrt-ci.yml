@@ -113,7 +113,7 @@ jobs:
           # CONFIG_TARGET_x86=y
           # CONFIG_TARGET_x86_64=y
           # CONFIG_TARGET_x86_64_Generic=y
-          EOF
+          # EOF
           # Disable SQUASHFS:
           cat >> .config <<EOF
           # CONFIG_TARGET_ROOTFS_TARGZ is not set
