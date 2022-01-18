@@ -109,10 +109,10 @@ jobs:
           CONFIG_TARGET_x86_generic_Generic=y
           EOF
           # 编译x64固件:
-          cat >> .config <<EOF
-          CONFIG_TARGET_x86=y
-          CONFIG_TARGET_x86_64=y
-          CONFIG_TARGET_x86_64_Generic=y
+          # cat >> .config <<EOF
+          # CONFIG_TARGET_x86=y
+          # CONFIG_TARGET_x86_64=y
+          # CONFIG_TARGET_x86_64_Generic=y
           EOF
           # Disable SQUASHFS:
           cat >> .config <<EOF
