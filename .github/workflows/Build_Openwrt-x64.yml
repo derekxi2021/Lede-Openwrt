@@ -7,7 +7,7 @@
 # <https://github.com/KFERMercer/OpenWrt-CI>
 #
 
-name: OpenWrt-CI
+name: Build_Openwrt-x64
 
 on:
   push:
@@ -119,6 +119,7 @@ jobs:
           # CONFIG_TARGET_ROOTFS_TARGZ is not set
           # CONFIG_TARGET_ROOTFS_INITRAMFS is not set
           # CONFIG_TARGET_ROOTFS_SQUASHFS is not set
+          CONFIG_TARGET_ROOTFS_SQUASHFS=y
           # CONFIG_TARGET_ROOTFS_EXT4FS is not set
           EOF
           # 设置固件大小:
