@@ -7,7 +7,7 @@
 # <https://github.com/KFERMercer/OpenWrt-CI>
 #
 
-name: Openwrt-x86
+name: OpenWrt-CI
 
 on:
   push:
@@ -68,7 +68,7 @@ jobs:
           # 例如:
           cat >> .config <<EOF
           # CONFIG_TARGET_IMAGES_GZIP=y
-          CONFIG_KERNEL_BUILD_USER="Openwrt-x86"
+          CONFIG_KERNEL_BUILD_USER="Openwrt-CI"
           CONFIG_KERNEL_BUILD_DOMAIN="Azure"
           EOF
           #
