@@ -7,7 +7,7 @@
 # <https://github.com/KFERMercer/OpenWrt-CI>
 #
 
-name: Build_Openwrt-x86
+name: Openwrt-x86
 
 on:
   push:
